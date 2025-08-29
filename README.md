@@ -79,14 +79,7 @@ response = sagemaker_runtime.invoke_endpoint(
 - **S3 Model Artifact**: `assets/s3-model-artifact-bucket.png` - S3 bucket containing the `model.tar.gz` file (235.7 MB) from training
 - **System Architecture**: `assets/architecture.png` - Complete system flow diagram
 
-## Security & Cost
-- Avoid committing secrets; use IAM roles and environment variables.
-- Enable throttling & WAF on API, set Lambda memory/timeouts; choose right instance size; shut down endpoints when idle.
 
-## Troubleshooting
-- 4xx from API: check Lambda permissions & payload shape.
-- 5xx from Lambda: verify endpoint name and model package; inspect CloudWatch logs.
-- CUDA issues in training: ensure correct instance type or fall back to CPU.
 
 ## Requirements
 - See requirements.txt and runtime-requirements.txt.
