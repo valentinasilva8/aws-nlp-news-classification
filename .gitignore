@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtual environments
+.venv/
+venv/
+.env
+.env*/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# MacOS
+.DS_Store
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Data/cache
+cache/
+*.cache/
+.data/
+
+# AWS/credentials (do not commit secrets)
+.aws/
+**/*credentials*
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Misc
+*.swp
+*.bak
+
+# Node (just in case)
+node_modules/

@@ -1,0 +1,8 @@
+boto3
+sagemaker
+transformers>=4.40
+torch
+pandas
+numpy
+scikit-learn
+matplotlib
