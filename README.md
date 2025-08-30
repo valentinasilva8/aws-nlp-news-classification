@@ -86,6 +86,3 @@ response = sagemaker_runtime.invoke_endpoint(
 
 ## Roadmap
 - Automate with SageMaker Pipelines; async inference; add monitoring dashboards; batch transform for scale.
-
-## License
-MIT
